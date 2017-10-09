@@ -60,9 +60,9 @@ do
 	case ${OPTION} in
 		a)
 			PARAM_PATH=${OPTARG}
-			PARAM_FULLNAME=$( basename ${PARAM_PATH} )
-			PARAM_NAME=${PARAM_FULLNAME%%.*}
-			PARAM_EXTENSION=${PARAM_FULLNAME#*.}
+			# PARAM_FULLNAME=$( basename ${PARAM_PATH} )
+			# PARAM_NAME=${PARAM_FULLNAME%%.*}
+			# PARAM_EXTENSION=${PARAM_FULLNAME#*.}
 			;;
 		c)
 			CPU=${OPTARG}
